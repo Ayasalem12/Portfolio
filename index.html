@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Aya Salem</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Aya Salem</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="section" id="home">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Aya Salem<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Aya, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me"><a href="#hire-me">Hire Me</a></button>
+            <button class="portfolio"><a href="#portfolio">Portfolio</a></button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/myprofile.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills__section">
+      <div class="skills__container">
+        <h2 class="skills__title">My Skills</h2>
+        <p class="skills__subtitle">Technologies I'm proficient in</p>
+        <div class="skills__grid">
+          <div class="skill__card">
+            <i class="ri-html5-fill"></i>
+            <h3>HTML5</h3>
+            <p>Modern semantic markup</p>
+          </div>
+          <div class="skill__card">
+            <i class="ri-css3-fill"></i>
+            <h3>CSS3</h3>
+            <p>Advanced styling & animations</p>
+          </div>
+          <div class="skill__card">
+            <i class="ri-javascript-fill"></i>
+            <h3>JavaScript</h3>
+            <p>Dynamic functionality</p>
+          </div>
+          <div class="skill__card">
+            <i class="ri-reactjs-fill"></i>
+            <h3>React</h3>
+            <p>Component-based UI</p>
+          </div>
+          <div class="skill__card">
+            <i class="ri-angularjs-fill"></i>
+            <h3>Angular</h3>
+            <p>Component-based UI</p>
+          </div>
+          <div class="skill__card">
+            <i class="fab fa-php"></i>
+            <h3>Php</h3>
+            <p>Backend</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about__section" id="about">
+      <div class="about__container">
+        <h2 class="about__title">About Me</h2>
+        <p class="about__subtitle">A little bit about my journey</p>
+        <div class="about__content">
+          <p>
+            I'm a passionate web developer with over 3 years of experience in building 
+            responsive and user-friendly websites. My journey began with a curiosity 
+            for coding, which evolved into a full-fledged career. I specialize in 
+            front-end development and enjoy turning complex problems into simple, 
+            beautiful solutions.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new technologies, reading 
+            tech blogs, or enjoying a good cup of coffee. I believe in continuous 
+            learning and am always excited to take on new challenges.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume__section" id="resume">
+      <div class="resume__container">
+        <h2 class="resume__title">Resume</h2>
+        <p class="resume__subtitle">My professional experience</p>
+        <div class="resume__timeline">
+          <div class="resume__item">
+            <h3>Front-End Developer</h3>
+            <p class="company">Tech Solutions Inc.</p>
+            <p class="duration">2022 - Present</p>
+            <p class="description">
+              Developed responsive web applications using React and modern CSS frameworks.
+            </p>
+          </div>
+          <div class="resume__item">
+            <h3>Junior Web Developer</h3>
+            <p class="company">Creative Agency</p>
+            <p class="duration">2020 - 2022</p>
+            <p class="description">
+              Built and maintained client websites with HTML, CSS, and JavaScript.
+            </p>
+          </div>
+        </div>
+        <a href="https://drive.google.com/drive/folders/1Pn9h2rYQcuOGZOiRf3QkR_mshPco5UGv?usp=drive_link" class="download__btn" download="Aya_Salem_Resume.pdf">Download Full Resume</a>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio__section" id="portfolio">
+      <div class="portfolio__container">
+        <h2 class="portfolio__title">Portfolio</h2>
+        <p class="portfolio__subtitle">Some of my recent projects</p>
+        <div class="portfolio__grid">
+          <div class="portfolio__card">
+            <img src="assets/project 1.png" alt="Project 1" />
+            <div class="portfolio__card-content">
+              <h3>Kasper</h3>
+              <p>A fully responsive online store built with JS and PHP.</p>
+              <a href="https://ayasalem12.github.io/HTML_AND_CSS_TEMPLETE_TWO/" class="portfolio__link">View Project</a>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <img src="assets/pro1 (1).png" alt="Project 2" />
+            <div class="portfolio__card-content">
+              <h3>Website For Eplipesy Patients</h3>
+              <p>Modern Website for helping patients built with React.</p>
+              <a href="https://www.linkedin.com/posts/aya-salem-058431202_react-front-activity-7099854083657793536-Ppwu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOtSgQB_Cbs8vO9RPLXyMLNKE0OO1EFhNA" class="portfolio__link">View Project</a>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <img src="assets/pro1 (2).png" alt="Project 3" />
+            <div class="portfolio__card-content">
+              <h3>Template HTML & CSS</h3>
+              <p>A custom Template showcasing responsive design.</p>
+              <a href="https://ayasalem12.github.io/HTML_AND_CSS_TEMPLETE_THREE-/" class="portfolio__link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact__section" id="contact">
+      <div class="contact__container">
+        <h2 class="contact__title">Contact Me</h2>
+        <p class="contact__subtitle">Get in touch</p>
+        <div class="contact__content">
+          <div class="contact__info">
+            <div class="contact__item">
+              <i class="ri-mail-line"></i>
+              <p><a href="mailto:aya.salem@email.com" class="contact__email">aya446085@gmail.com</a></p>
+            </div>
+            <div class="contact__item">
+              <i class="ri-phone-line"></i>
+              <p>+201061661486</p>
+            </div>
+            <div class="contact__item">
+              <i class="ri-map-pin-line"></i>
+              <p>Egypt</p>
+            </div>
+          </div>
+          <div class="contact__cta">
+            <p>Feel free to reach out to me directly via email:</p>
+            <a href="mailto:aya446085@gmail.com" class="email__btn">Send me an Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hire Me Section -->
+    <section class="hire__me__section" id="hire-me">
+      <div class="hire__me__container">
+        <h2 class="hire__me__title">Hire Me</h2>
+        <p class="hire__me__subtitle">Let's work together!</p>
+        <div class="hire__me__content">
+          <p>
+            Are you looking for a dedicated web developer to bring your ideas to life? 
+            I'm available for freelance projects, part-time opportunities, or full-time 
+            positions. With my expertise in front-end development and a passion for 
+            creating user-friendly websites, I’d love to help you achieve your goals.
+          </p>
+          <a href="mailto:aya446085@gmail.com" class="hire__me__btn">Contact Me Now</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
